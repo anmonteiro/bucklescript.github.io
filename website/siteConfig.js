@@ -147,7 +147,7 @@ const siteConfig = {
     }
   },
   enableUpdateTime : true,
-  customDocsPath: path.basename(__dirname) + '/docs'
+  customDocsPath: path.resolve(__dirname, '../docs')
 };
 
 module.exports = siteConfig;
