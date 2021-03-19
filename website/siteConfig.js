@@ -1,4 +1,3 @@
-const path = require('path');
 /**
  * Copyright (c) 2017-present, Facebook, Inc.
  * All rights reserved.
@@ -146,8 +145,7 @@ const siteConfig = {
       facetFilters: ["lang:LANGUAGE"]
     }
   },
-  enableUpdateTime : true,
-  customDocsPath: path.resolve(__dirname, '../docs')
+  enableUpdateTime : true
 };
 
 module.exports = siteConfig;
