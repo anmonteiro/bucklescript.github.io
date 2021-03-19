@@ -146,7 +146,7 @@ const siteConfig = {
       facetFilters: ["lang:LANGUAGE"]
     }
   },
-  enableUpdateTime : true
+  enableUpdateTime : true,
   customDocsPath: path.basename(__dirname) + '/docs'
 };
 
