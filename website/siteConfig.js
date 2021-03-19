@@ -1,3 +1,4 @@
+const path = require('path');
 /**
  * Copyright (c) 2017-present, Facebook, Inc.
  * All rights reserved.
@@ -146,6 +147,7 @@ const siteConfig = {
     }
   },
   enableUpdateTime : true
+  customDocsPath: path.basename(__dirname) + '/docs'
 };
 
 module.exports = siteConfig;
